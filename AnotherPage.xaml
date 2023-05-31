@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiApp2.AnotherPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="AnotherPage">
+
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25"
+        VerticalOptions="Center">
+        
+        <Label
+            HorizontalOptions="Center"
+            Text="Welcome to Another Page!"
+            VerticalOptions="Center" />
+
+        <Switch BackgroundColor="DarkGray" />
+
+        <Button x:Name="NavigateBtn" Clicked="NavigateBtn_Clicked" HorizontalOptions="Center" Text="Go Back" />
+
+    </VerticalStackLayout>
+</ContentPage>
